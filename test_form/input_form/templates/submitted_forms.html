@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submitted forms</title>
+</head>
+<body>
+    <h1>
+        <a href="/">Back to main page</a>
+    </h1>
+    <div>
+        {% for i in json_list %}
+            <br> {{ i }}
+        {% endfor %}
+    </div>
+</body>
+</html>
